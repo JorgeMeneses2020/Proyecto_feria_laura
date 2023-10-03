@@ -1,0 +1,211 @@
+* {margin: ;
+    margin: 0 auto;
+    padding: 0;
+    
+    
+}
+
+#container {
+    width: 85%;
+}
+header {
+    display: flex;
+    margin-top: 30px;
+    justify-content:space-between;
+}
+
+header #logo {
+    width: 40%;
+}
+
+header #logo img {
+
+   width: 20%;
+}
+
+
+header #menu {
+    width: 70%;
+}
+
+header #menu ul {
+    list-style: none;
+    height:50px;
+    display: flex;
+    aling-items: center;
+
+}
+
+header #menu ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#hamburguer{
+  display:none;
+}
+
+#content {
+    display: flex;
+    margin-top: 40px;
+}
+
+#content #info {
+    width: 65%;
+
+}
+
+#content #barral {
+    width: 30%;
+    background: #408cfff7;
+    color: white;
+    padding: 20px;
+}
+
+#cards .card {
+
+    margin-bottom: 40px;
+
+
+}
+
+.card h3 {
+
+    margin-bottom: 20px;
+}
+
+#content #info #banner img {
+    width: 100%;
+}
+
+
+#info #texts {
+    display: flex;
+    margin-top: 20px;
+}
+
+#texts h1 {
+    width: 40%;
+    font-size: 45px;
+}
+
+#texts #descripcion {
+    width: 55%;
+}
+
+#descripcion p {
+    margin-bottom: 40px;
+}
+
+#descripcion input {
+    border: none;
+    padding: 15px 20px;
+    background: #aaf4ff;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+
+footer {
+    margin-top: 40px;
+
+}
+
+footer .tarjeta {
+    display: flex;
+}
+
+.tarjeta .infopie img {
+    display: flex;
+    padding-right: 100px;
+}
+
+.tarjeta .infopie img {
+    width: 40%;
+}
+
+
+
+
+@media(max-width:480px){
+  
+  header #menu{
+      position:absolute;
+      background:white;
+      height: 1000px;
+      top:0;
+      right:0;
+  }
+  
+  
+  header #menu ul{
+      flex-direction:column;
+      text-align:left;
+      margin-top:20px;
+  }
+  
+  header #menu ul li {
+      margin: 20px 0;
+  }
+  
+  #menu{
+      display:none;
+  }
+ 
+  #hamburguer{
+      display:block;
+      position:absolute;
+      z-index:20;
+      top:10px;
+      right:20px;
+      width: 20%;
+  }
+  
+  #hamburguer img{
+      width: 10%;
+  }
+  
+  header{
+      margin-top:10px;
+      
+  }
+  header #logo{
+      margin: 0;
+  }
+  
+  header #logo img{
+      width: 60%;
+  }
+  
+  #content{
+  flex-direction: column;
+  }
+  
+  #info{
+      width: 100%;
+      margin-bottom:40px;
+  }
+  #content #info #banner img{
+      width: 90%;
+  }
+  
+ #content #barral{
+      width: 90%;
+  }
+  #texts{
+      flex-direction:column;
+  }
+  #texts h1{
+      width: 100%;
+  }
+  
+  #texts #descripcion{
+      width: 100%;
+  }
+  
+}
+ 
+ 
+ 
